@@ -1,0 +1,18 @@
+display_information:
+  name: slack-export
+oauth_config:
+  scopes:
+    user:
+      - channels:history
+      - channels:read
+      - groups:history
+      - groups:read
+      - im:history
+      - im:read
+      - mpim:history
+      - mpim:read
+      - users:read
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false

@@ -1,0 +1,12 @@
+{
+  "name": "20220821-slack-export",
+  "version": "1.0.0",
+  "description": "Slack のチャンネルから全メッセージ（スレッド内の返信含む）をダウンロードするスクリプトです。 対象範囲は、パブリックチャンネル、プライベートチャンネル、複数人のダイレクトメッセージ、ダイレクトメッセージです。 ただし実行したユーザーが閲覧権限を持っているものに限ります。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
