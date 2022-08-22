@@ -1,4 +1,4 @@
-# slack_export
+# Slack Export
 
 Slack のチャンネルから全メッセージをダウンロードするスクリプトです。
 対象範囲は、パブリックチャンネル、プライベートチャンネル、複数人のダイレクトメッセージ、ダイレクトメッセージです。
@@ -15,20 +15,20 @@ Slack のチャンネルから全メッセージをダウンロードするス�
 
 1. Slack App を作成する。[App の作成ページ](https://api.slack.com/apps)を開き、`Create New App` を押す。
 
-![Create New App](./images/create.svg)
+<img src="./images/create.png" alt="Create New App">
 
 2. `From an app manifest` を選択し、`manifest.yaml` の内容を貼り付けて、あとは指示通り進む。
 
-![From an app manifest](./images/from-manifest.svg)
-![Paste manifest](./images/paste-manifest.svg)
+<img src="./images/from-manifest.png" width="500px" alt="From an app manifest">
+<img src="./images/paste-manifest.png" width="500px" alt="Paste manifest">
 
-3. 作成した App の Basic Information ページで `Install your app` を押し、インストール先のワークスペースを選択する。
+3. 作成した App の Basic Information ページで `Install to Workspace` を押し、インストール先のワークスペースを選択する。
 
-![Install to Workspace](./images/install.svg)
+<img src="./images/install.png" alt="Install to Workspace">
 
 4. OAuth & Permissions ページの `User OAuth Token` を控えておく。
 
-![User OAuth Token](./images/token.svg)
+<img src="./images/token.png" alt="User OAuth Token">
 
 ## 使い方
 
